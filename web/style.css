@@ -1,0 +1,86 @@
+body {
+    background:#f9f9f9;
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+.tittle {
+    font-size: 26px;
+    text-align: center;
+}
+section {
+    width: 660px;
+    margin: 0 auto;
+}
+.item {
+    padding-bottom: 15px;
+    width: 215px;
+}
+.teacher .item
+{
+
+    display: inline-block;
+}
+.teacher{
+    margin-top: 15px;
+}
+.item img {
+    width: 150px;
+    height: 210px;
+}
+
+.item img:hover {
+    border: 4px solid rgb(18, 35, 192);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.item img {
+    border: 4px solid transparent;
+}
+a {
+    color:#1d0df3;
+    text-decoration: none;
+}
+::after {
+    display: block;
+    color: black;
+    cursor: text;
+}
+.teacher_name-1::after {
+    content: "зав.каф., професор, д.е.н.";
+}
+.teacher_name-2::after {
+    content: "професор, д.ф.-м.н.";
+}
+.teacher_name-3::after {
+    content: "професор, д.е.н.";
+
+}
+.teacher_name-4::after {
+    content: "професор, д.е.н.";
+
+}
+.teacher_name-5::after {
+    content: "професор, д.е.н.";
+}
+.teacher_name-6::after {
+    content: "доцент, к.е.н.";
+}
+
+@media (min-width: 1200px)
+{
+    section {
+     width: 910px;
+ }
+}
+
+@media (max-width: 960px)
+{
+    section {
+        width: 440px;
+    }
+}
+@media (max-width: 480px)
+{
+    section {
+        width: 185px;
+    }
+}
