@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Task#1</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+
+
+   <div class="container">
+    <h2 class="title"> МАКРОЭКОНОМИЧЕСКАЯ ЗАДАЧА </h2>
+       <h3 class="task"> Определите <i>личный доход</i>, если:
+           национальный доход - <i>NI</i>, социальные выплаты - <i>SP</i>, налоги корпораций - <i>CT</i>,
+           нераспределенная прибыль - <i>UP</i>, трансфертные платежи - <i>TP</i>, 
+           доходы от ценных бумаг - <i>IS</i>, доходы от депозитов - <i>ID</i>.</h3>
+      <div class="task-content">
+       <h3> NI:</h3><input id="ni" value="" autocomplete="off">
+       <h3> SP:</h3><input id="sp" value="" autocomplete="off">
+       <h3> CT:</h3><input id="ct" value="" autocomplete="off">
+       <h3> UP:</h3><input id="up" value="" autocomplete="off">
+       <h3> TP:</h3><input id="tp" value="" autocomplete="off">
+       <h3> IS:</h3><input id="is" value="" autocomplete="off">
+       <h3> ID:</h3><input id="id" value="" autocomplete="off">
+      </div>
+          <div class="task-text">
+          <h3 class="formula">
+            ЛД = НД – Социальные выплаты – Налоги корпораций - Нераспределенная прибыль + Трансфертные платежи + Доходы от ценных бумаг - Доходы от депозитов.  
+          </h3>
+       
+          <h3> ЛД:</h3> <p id="res"></p></div>
+
+       <div class="button">
+           <button id="btn"> click </button>
+       </div>
+
+
+   </div>
+<script src="calculator.js"></script>
+</body>
+</html>

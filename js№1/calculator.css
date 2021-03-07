@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: monospace;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    background: rgb(231, 225, 171);
+}
+.task-content h3 {
+    margin: 2px;
+}
+h3,h2, button{
+    text-align: center;
+}
+.task-content, .task-text, .button {
+    text-align: center;
+}
+input {
+    font-size: 17px;
+    text-align: center;
+    padding: 10px;
+    height: 25px;
+    width: 250px;
+}
+.task-text {
+    margin: 0 35px;
+}
+button {
+    cursor: pointer;
+    width: 200px;
+    margin-bottom: 30px;
+}
+p {
+    font-size: 25px;
+    margin: 15px 0;
+}
