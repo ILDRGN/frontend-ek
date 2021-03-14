@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS2</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="main">
+        <h1>ИСТОРИЯ</h1>
+        <p>В КАКОМ ГОДУ РАСПАЛАСЬ ЧЕХОСЛОВАКИЯ:</p>
+        <p><input type="radio" name="year" id="y1">1989</p>
+        <p><input type="radio" name="year" id="y2">1993</p>
+        <p><input type="radio" name="year" id="y3">1991</p>
+        <p><input type="radio" name="year" id="y4">1988</p>
+        <div><button id = "bttn"><b>Ответить</b></button></div>
+        
+    </div>
+    
+    <div class = "right hidden" id = "right"><b>ВЕРНО</b></div>
+
+    <div class = "wrong hidden" id = "wrong_hidden">
+         <p class="wrong" id = "wrong"><b>НЕВЕРНО</b></p>
+         <button id = "bttn1"><b>Узнать ответ</b></button>
+         <p id = "answer" class = "hidden">1993</p>
+    </div>
+    
+    <script src="quiz.js"></script>
+</body>
+</html>
