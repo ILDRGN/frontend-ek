@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="function.css">
+</head>
+<body>
+<div class="container">
+    <h2 >Americans, If You Get 8/8 On This Weird British Terms Quiz, You Deserve Dual Citizenship</h2>
+    <div class="top_img" id="im">
+        <img  id="img" src="img/Union_Jack.jpg">
+    </div>
+   
+    <p class="question" id  = "question"></p>
+    <p class="item"><input type="radio" name="test" id="y1"><span  id = "a1"></span></p>
+    <p class="item"><input type="radio" name="test" id="y2"><span  id = "a2"></span></p>
+
+    <button class="button1 " id = "btn">Answer the question</button>
+
+    <div class="right_div hidden" id = "right_div">
+        <p class="right" id="right">Correct answer</p>
+        <button class="button2" id = "btn2">Move on</button>
+    </div>
+    <div class="wrong_div hidden" id="wrong_div">
+        <p class="wrong" id="wrong">Wrong answer</p>
+        <button class="button3" id = "btn1">Find out the answer</button>
+    </div>
+
+    <p id="answer" class = "hidden"></p>
+    <div id="resa" class="results hidden">
+        <ul class="results-list">
+            <li> 0-3  Sorry, you're a dumb American (like me)
+                Hey, it's cool! The British may have invented the English language, but they sure use it in a weird way. I mean, "hundreds and thousands"? What the heck was that?</li>
+            <li> 4-6  You're on your way to being an honorary Brit!
+                You got a lot of these right, which means you are fairly familiar with the different things they say over in jolly ol' England! Good show! </li>
+            <li> 7-8  Congrats, you're an honorary Brit!
+                Good show! If you ask me the Queen should fly you out to London and throw a parade in your name!</li>
+        </ul>
+    </div>
+</div>
+<input type="hidden" value = "0" id = "n_question">
+
+<script src="function.js"></script>
+
+</body>
+</html>
