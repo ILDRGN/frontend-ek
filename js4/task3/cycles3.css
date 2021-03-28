@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10p;
+    font-family: 'Lexend', sans-serif;
+}
+.main{
+    margin:0 auto;
+    width: 1200px;
+    background: rgb(117, 177, 255);
+    box-shadow: 0 0 10px rgba(4, 2, 36, 0.788);
+   
+}
+.content
+{
+    display: flex;
+    justify-content: space-around;
+}
+button {
+    color: white;
+    font-size: 15px;
+    background: rgb(21, 11, 161);
+    width: 160px;
+    height: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button {
+    display: flex;
+    justify-content: center;
+}
+h3 {
+    text-align: center;
+}
+input {
+    font-size: 20px;
+}

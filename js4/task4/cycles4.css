@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10p;
+    font-family: 'Lexend', sans-serif;
+}
+.main{
+    margin:0 auto;
+    width: 1200px;
+    background: rgb(60, 142, 248);
+    box-shadow: 0 0 10px rgba(4, 2, 36, 0.788);
+   
+}
+.content h3 {
+    margin: 5px;
+}
+h3,h2, button{
+    text-align: center;
+}
+.content, .result, .button {
+    text-align: center;
+}
+input {
+    font-size: 17px;
+    text-align: center;
+    padding: 10px;
+    height: 25px;
+    width: 300px;
+}
+.result {
+    margin: 0 35px;
+}
+button {
+    cursor: pointer;
+    width: 200px;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 25px;
+    margin: 15px 0;
+}
